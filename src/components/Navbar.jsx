@@ -36,9 +36,8 @@ export default function Navbar() {
       >
         <div className={`mx-auto max-w-[1280px] px-6 flex items-center justify-between ${scrolled ? 'glass rounded-full px-6 py-3 shadow-3d' : 'bg-transparent'}`}>
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-ink-900 flex items-center justify-center relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-rust-500 to-rust-700 opacity-90" />
-              <span className="relative text-white font-display font-bold text-[18px] tracking-tight">S</span>
+            <div className="w-11 h-11 rounded-xl bg-white border border-ink-900/5 shadow-sm flex items-center justify-center overflow-hidden p-1.5">
+              <img src="/safra-icon-clean.png" alt="SAFRA Developers Logo" className="w-full h-full object-contain" />
             </div>
             <div className="leading-none">
               <div className="font-display font-bold text-[20px] tracking-[-0.02em] text-ink-900 flex items-baseline gap-1">

@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="grid lg:grid-cols-[1.4fr_0.8fr_0.8fr_1fr] gap-12 pb-12 border-b border-white/10">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-rust-500 to-rust-700 grid place-items-center">
-                <span className="font-display font-bold text-lg text-white">S</span>
+              <div className="w-11 h-11 rounded-xl bg-white flex items-center justify-center overflow-hidden p-1.5">
+                <img src="/safra-icon-clean.png" alt="SAFRA Developers Logo" className="w-full h-full object-contain" />
               </div>
               <div>
                 <div className="font-display font-bold text-xl tracking-tight">SAFRA <span className="font-mono font-normal text-xs tracking-[0.2em] text-white/60">DEVELOPERS</span></div>
